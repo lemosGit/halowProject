@@ -1,0 +1,34 @@
+.o-livechat-LivechatButton-notification {
+    animation: o-livechat-LivechatButton-notification-animation 0.6s ease-in-out forwards;
+    transform-origin: 100% 100%;
+    bottom: 2.5em;
+    right: 4.5em;
+}
+
+@keyframes o-livechat-LivechatButton-notification-animation {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    20% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+// Shift cookies bar show/hide button to the side of livechat button.
+.o_cookies_bar_toggle {
+    $-o-livechat-button-margin: 48px;
+    // Livechat button size + margin + arbitrary gap.
+    inset-inline-end: calc(56px + #{$-o-livechat-button-margin} + 1rem);
+    inset-block-end: var(--cookies-bar-toggle-inset-block-end, #{$-o-livechat-button-margin});
+}

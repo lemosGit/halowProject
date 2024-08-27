@@ -1,0 +1,626 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_self_order
+# 
+# Translators:
+# Wil Odoo, 2023
+# Sarah Park, 2023
+# Daye Jeong, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-25 11:23+0000\n"
+"PO-Revision-Date: 2023-07-25 12:22+0000\n"
+"Last-Translator: Daye Jeong, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_self_order
+#: model:ir.actions.report,print_report_name:pos_self_order.report_self_order_qr_codes_page
+msgid "\"QR codes\""
+msgstr "\"QR 코드\""
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Add a note:"
+msgstr "메모 추가:"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Add to Cart"
+msgstr "장바구니에 담기"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_order_table_mode
+msgid "Allow customers to Order from their phones"
+msgstr "고객이 휴대폰에서 주문할 수 있도록 허용"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Allow customers to order from their phones"
+msgstr "고객이 휴대폰에서 주문할 수 있도록 허용"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Allow customers to see the menu from their phone"
+msgstr "고객이 휴대폰에서 메뉴를 볼 수 있게 합니다."
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_order_view_mode
+msgid ""
+"Allow customers to view the menu on their phones by scanning the QR code on "
+"the table"
+msgstr "테이블에 있는 QR 코드를 스캔하여 고객이 휴대폰에서 메뉴를 볼 수 있게 합니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "An error has occurred"
+msgstr "오류가 발생했습니다"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/res_config_settings.py:0
+#, python-format
+msgid ""
+"Before you can create QR codes, you need to create tables for the "
+"restaurant."
+msgstr "QR 코드를 사용하려면 먼저 레스토랑의 테이블을 생성해야 합니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/order_cart/order_cart.xml:0
+#, python-format
+msgid "Cancel last selection"
+msgstr "마지막 선택 취소"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_order_pay_after
+#: model:ir.model.fields,help:pos_self_order.field_res_config_settings__pos_self_order_pay_after
+msgid "Choose when the customer will pay"
+msgstr "고객이 결제할 시기를 선택하세요"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_res_config_settings
+msgid "Config Settings"
+msgstr "환경 설정"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Configure Buttons"
+msgstr "버튼 설정"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/popup_table/popup_table.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "승인"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/order_cart/order_cart.xml:0
+#, python-format
+msgid "Confirm order cancellation"
+msgstr "주문 취소 확인"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/popup_table/popup_table.xml:0
+#, python-format
+msgid "Confirm your table"
+msgstr "테이블 확인"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Connection lost, please try again later"
+msgstr "연결이 끊어졌습니다. 나중에 다시 시도하세요."
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_uid
+msgid "Created by"
+msgstr "작성자"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_date
+msgid "Created on"
+msgstr "작성일자"
+
+#. module: pos_self_order
+#: model:ir.actions.act_window,name:pos_self_order.custom_link_action
+#: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
+msgid "Custom Links"
+msgstr "맞춤 링크"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_self_order_custom_link
+msgid ""
+"Custom links that the restaurant can configure to be displayed on the self "
+"order screen"
+msgstr "셀프 주문 스크린에 표시되도록 레스토랑에서 설정할 수 있는 맞춤 링크"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__danger
+msgid "Danger"
+msgstr "위험"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__dark
+msgid "Dark"
+msgstr "어둡게"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__display_name
+msgid "Display Name"
+msgstr "이름 표시"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_order_pay_after__each
+#: model:ir.model.fields.selection,name:pos_self_order.selection__res_config_settings__pos_self_order_pay_after__each
+msgid "Each Order (mobile payment only)"
+msgstr "각 주문 (모바일 결제 전용)"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Generate QR Codes"
+msgstr "QR 코드 생성"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP 라우팅"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_order_image
+msgid "Image to display on the self order screen"
+msgstr "셀프 주문 화면에 표시할 이미지"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__info
+msgid "Info"
+msgstr "정보"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__name
+msgid "Label"
+msgstr "라벨"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_uid
+msgid "Last Updated by"
+msgstr "최근 갱신한 사람"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_date
+msgid "Last Updated on"
+msgstr "최근 갱신 일자"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__light
+msgid "Light"
+msgstr "가볍게"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/orders_history/orders_history.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "불러오는 중..."
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_order_pay_after__meal
+#: model:ir.model.fields.selection,name:pos_self_order.selection__res_config_settings__pos_self_order_pay_after__meal
+msgid "Meal (mobile payment or cashier)"
+msgstr "식사 (모바일 결제 또는 계산대)"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_menu_item
+msgid "Mobile Menu"
+msgstr "모바일 메뉴"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/landing_page/landing_page.xml:0
+#, python-format
+msgid "My Orders"
+msgstr "내 주문"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_order_image_name
+msgid "Name of the image to display on the self order screen"
+msgstr "셀프 주문 화면에 표시할 이미지 이름"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "No onions please"
+msgstr "양파는 빼주세요"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/orders_history/orders_history.xml:0
+#, python-format
+msgid "No order found"
+msgstr "주문이 없습니다"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_list/product_list.xml:0
+#: code:addons/pos_self_order/static/src/pages/product_list/product_list.xml:0
+#, python-format
+msgid "No products found"
+msgstr "품목을 찾을 수 없습니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/order_cart/order_cart.js:0
+#, python-format
+msgid "Not yet implemented!"
+msgstr "아직 구현되지 않음"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/landing_page/landing_page.xml:0
+#, python-format
+msgid "Odoo Logo"
+msgstr "Odoo 로고"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/order_cart/order_cart.js:0
+#, python-format
+msgid "Order"
+msgstr "주문"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Orders wasn't found on the server"
+msgstr "서버에서 주문을 찾을 수 없습니다"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/order_cart/order_cart.js:0
+#, python-format
+msgid "Pay"
+msgstr "지불"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_order_pay_after
+#: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_order_pay_after
+msgid "Pay After:"
+msgstr "나중에 결제:"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Pay after"
+msgstr "나중에 결제"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS 환경 설정"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "점포판매시스템 주문 명세"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "점포판매시스템 주문"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__pos_config_ids
+msgid "Points of Sale"
+msgstr "점포판매시스템"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_order_image
+msgid "Pos Self Order Image"
+msgstr "POS 셀프 주문 이미지"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_order_image_name
+msgid "Pos Self Order Image Name"
+msgstr "POS 셀프 주문 이미지 이름"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_order_table_mode
+msgid "Pos Self Order Table Mode"
+msgstr "POS 셀프 주문 테이블 모드"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_order_view_mode
+msgid "Pos Self Order View Mode"
+msgstr "POS 셀프 주문 화면 모드"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/landing_page/landing_page.xml:0
+#, python-format
+msgid "Powered by"
+msgstr "저작권자"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__link_html
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Preview"
+msgstr "미리보기"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__primary
+msgid "Primary"
+msgstr "기본"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_product_product
+msgid "Product Variant"
+msgstr "품목 세부선택"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/product_card/product_card.xml:0
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Product image"
+msgstr "품목 이미지"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_order_view_mode
+#: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "QR Code Menu"
+msgstr "QR 코드 메뉴"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Quantity select"
+msgstr "수량 선택"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Remove from Cart"
+msgstr "장바구니에서 삭제"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_restaurant_floor
+msgid "Restaurant Floor"
+msgstr "식당 층"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_restaurant_table
+msgid "Restaurant Table"
+msgstr "식당 테이블"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_list/product_list.xml:0
+#, python-format
+msgid "Review ("
+msgstr "리뷰 ("
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_list/product_list.xml:0
+#, python-format
+msgid "Search product"
+msgstr "품목 검색"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__secondary
+msgid "Secondary"
+msgstr "2차"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__access_token
+#: model:ir.model.fields,field_description:pos_self_order.field_restaurant_table__identifier
+msgid "Security Token"
+msgstr "보안 토큰"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_self_order_custom_link__pos_config_ids
+msgid ""
+"Select for which points of sale you want to display this link. Leave empty "
+"to display it for all points of sale. You have to select among the points of"
+" sale that have the 'QR Code Menu' feature enabled."
+msgstr ""
+"이 링크를 표시할 POS를 선택하세요. 전체 POS에서 표시되게 하려면 비워 둡니다. 'QR 코드 메뉴' 기능이 활성화되어 있는 POS "
+"중에서 선택해야 합니다."
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_order_line__selected_attributes
+msgid "Selected Attributes"
+msgstr "선택 속성"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_order_table_mode
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Self Order"
+msgstr "셀프 주문"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_order_image
+msgid "Self Order Image"
+msgstr "셀프 주문 이미지"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_order_image_name
+msgid "Self Order Image Name"
+msgstr "셀프 주문 이미지 이름"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_menu_item
+msgid "Self Ordering Enabled"
+msgstr "셀프 주문 활성화됨"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__sequence
+msgid "Sequence"
+msgstr "순서"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Set Background Image"
+msgstr "배경 이미지 설정"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__style
+msgid "Style"
+msgstr "스타일"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__success
+msgid "Success"
+msgstr "성공"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.qr_code
+msgid "Table:"
+msgstr "테이블:"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/price_details/price_details.xml:0
+#, python-format
+msgid "Tax:"
+msgstr "세금:"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_root.xml:0
+#, python-format
+msgid "The restaurant is currently closed"
+msgstr "레스토랑은 현재 영업 중이 아닙니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/price_details/price_details.xml:0
+#, python-format
+msgid "Total:"
+msgstr "합계 :"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__url
+msgid "URL"
+msgstr "URL"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.xml:0
+#, python-format
+msgid "Update Cart"
+msgstr "장바구니 업데이트"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/landing_page/landing_page.xml:0
+#, python-format
+msgid "View Menu"
+msgstr "메뉴 보기"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__warning
+msgid "Warning"
+msgstr "경고"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/lines/lines.js:0
+#, python-format
+msgid "You cannot edit an posted order!"
+msgstr "이미 게시된 주문은 수정할 수 없습니다!"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/pages/product_main_view/product_main_view.js:0
+#, python-format
+msgid "You cannot reduce the quantity of an order that has already been sent!"
+msgstr "이미 발송된 주문의 수량은 변경할 수 없습니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "You're not authorized to perform this action"
+msgstr "이 작업을 수행할 수 있는 권한이 없습니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Your order has been canceled"
+msgstr "주문이 취소되었습니다"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Your order has been paid"
+msgstr "주문이 결제되었습니다"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Your order has been placed!"
+msgstr "주문이 결제되었습니다."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/self_order_service.js:0
+#, python-format
+msgid "Your order status has been changed"
+msgstr "주문 상태가 변경되었습니다."
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
+msgid "empty = all points of sale"
+msgstr "비워 두기 = 전체 POS 적용"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
+msgid "https://odoo.com"
+msgstr "https://odoo.com"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
+msgid "odoo"
+msgstr "odoo"
+
+#. module: pos_self_order
+#: model:ir.actions.report,name:pos_self_order.report_self_order_qr_codes_page
+msgid "qr.codes"
+msgstr "qr.codes"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/components/popup_table/popup_table.xml:0
+#, python-format
+msgid "to place the order"
+msgstr "주문하려면"

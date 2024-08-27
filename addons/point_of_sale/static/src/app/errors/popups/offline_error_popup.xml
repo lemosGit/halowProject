@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="point_of_sale.OfflineErrorPopup" owl="1">
+        <div class="popup offline">
+            <header class="title">
+                <t t-esc="props.title" />
+            </header>
+            <main class="body">
+                <t t-esc=" props.body" />
+            </main>
+            <footer class="footer footer-flex">
+                <div class="button dont-show-again highlight" t-on-click="confirm">
+                    <t t-esc="props.confirmText" />
+                </div>
+            </footer>
+        </div>
+    </t>
+
+</templates>

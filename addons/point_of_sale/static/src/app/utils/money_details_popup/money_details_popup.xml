@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale.MoneyDetailsPopup" owl="1">
+        <div class="popup money-details">
+            <main class="body">
+                <div class="money-details-title">
+                    Coins/Bills
+                </div>
+                <div class="money-details-info">
+                    <div t-foreach="[firstHalfMoneyDetails, lastHalfMoneyDetails]" t-as="moneyDetailsList" t-key="moneyDetailsList_index">
+                        <t t-foreach="moneyDetailsList" t-as="moneyValue" t-key="moneyValue">
+                            <div class="money-details-value" t-on-input="updateMoneyDetailsAmount">
+                                <input class="pos-input" t-att-id="moneyValue" type="number" t-model.number="state.moneyDetails[moneyValue]" t-on-focus="ev=>ev.target.select()"/>
+                                <label class="oe_link_icon" t-att-for="moneyValue">
+                                    <t t-if="currency.position === 'before'"><t t-esc="currency.symbol"/>&nbsp;</t>
+                                    <t t-esc="moneyValue"/>
+                                    <t t-if="currency.position === 'after'">&nbsp;<t t-esc="currency.symbol"/></t>
+                                </label>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+                <div class="total-section">
+                    <span>Total </span>
+                    <label t-esc="env.utils.formatCurrency(state.total)"/>
+                </div>
+            </main>
+            <footer class="footer footer-flex">
+                <div class="button highlight" t-on-click="confirm">Confirm</div>
+                <div class="button" t-on-click="cancel">Discard</div>
+            </footer>
+        </div>
+    </t>
+</templates>
