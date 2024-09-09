@@ -1,0 +1,6 @@
+cd meus_projetos/site
+git init
+git remote add origin https://github.com/joaosilva/meu_site.git
+git add .
+git commit -m "Criando o projeto inicial"
+git push -u origin main
