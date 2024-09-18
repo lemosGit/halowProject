@@ -1,5 +1,4 @@
 from odoo import models, fields
-
  
 class TranAluno (models.Model):
     _name = "trans.aluno"
@@ -67,9 +66,7 @@ class TranAluno (models.Model):
     phone = fields.Integer(
         string=" contacto de emergencia",
         required=True
-    )
-
-    
+    )  
 
 #PAGE DOCUMENTOS
 

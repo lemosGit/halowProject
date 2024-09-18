@@ -15,9 +15,7 @@
             <field name="email"/>
             <field name="phone"/>
             <field name="parents_pai"/>
-            <field name="parents_mae" />
-           
-           
+            <field name="parents_mae" />           
         </tree>
     </field>
 </record>
