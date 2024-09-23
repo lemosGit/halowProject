@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="menu_geral"
+        name="Gestao de horas"
+        action="action_gest_horas"
+        sequence="10"/>
+
+   <menuitem
+    id="menu_registar"
+    name="Registar"
+    action="action_gest_horas"
+    parent="menu_geral"
+    sequence="20"/>
+
+    <menuitem
+        id="menu_dsiciplina"
+        name="Disciplina"
+        action="action_disciplina"
+        parent="menu_registar"
+        sequence="30"/> 
+
+    <menuitem
+        id="menu_sala"
+        name="Sala"
+        action="action_sala"
+        parent="menu_registar"
+        sequence="40"/>     
+
+    <menuitem
+        id="menu_gest_horas"
+        name="Gestao de horarios"
+        action="action_gest_horas"
+        parent="menu_geral"
+        sequence="50"/>    
+
+    <menuitem
+        id="menu_criar_horario"
+        name="Criar horarios"
+        action="action_criar_horario"
+        parent="menu_gest_horas"
+        sequence="60"/>     
+
+     <menuitem
+        id="menu_ver_horario"
+        name="Grades de horarios"
+        action="action_ver_horario"
+        parent="menu_gest_horas"
+        sequence="70"/>          
+</odoo>

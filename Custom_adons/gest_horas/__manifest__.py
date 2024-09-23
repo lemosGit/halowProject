@@ -4,11 +4,12 @@
     'summary': 'Gestao de horas',
     'description': """ Modulo para gerir horarios escolares """,
 
-    #'data' : [
-    #    "views/view_transporte0.xml",
-    #    "security/ir.model.access.csv",
-    #     "views/view_herdada.xml",
+    'data' : [
+        "actions/action_gest_horas.xml",
+        "menu/menu.xml",
+        "views/views.xml",
+        "security/ir.model.access.csv"
               
-     #]
+     ]
 
 }

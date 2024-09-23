@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+gest_horas.access_horario,access_horario,gest_horas.model_horario,base.group_user,1,1,1,1
+gest_horas.access_disciplina,access_disciplina,gest_horas.model_disciplina,base.group_user,1,1,1,1
+gest_horas.access_professor,access_professor,gest_horas.model_professor,base.group_user,1,1,1,1
+gest_horas.access_sala,access_sala,gest_horas.model_sala,base.group_user,1,1,1,1
+gest_horas.access_departamento,access_departamento,gest_horas.model_departamento,base.group_user,1,1,1,1
+gest_horas.access_disponibilidade,access_disponibilidade,gest_horas.model_disponibilidade,base.group_user,1,1,1,1

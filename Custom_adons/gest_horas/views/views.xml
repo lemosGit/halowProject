@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ <!--VIEWS PERTENCENTES AO MODELO HORARIO (PARA VER AS GRADES DE HORARIOS) -->
+
+<record id="view_tree_ver_horario" model="ir.ui.view">
+    <field name="name">view tree ver horario</field>
+    <field name="model">horario</field>
+    <field name="arch" type="xml">
+        <tree>
+            
+            <field name="professor"/>
+            <field name="disponibilidade"/>
+            <field name="disciplina"/>
+            <field name="sala"/>
+            <field name="dia_semana"/>
+            <field name="hora_inicio"/>
+            <field name="hora_fim" />
+              
+        </tree>
+    </field>
+</record>
+
+ <!--VIEWS PERTENCENTES AO MODELO HORARIO (PARA CRIAR) -->
+    
+<record id="view_form_criar_horario" model="ir.ui.view">
+    <field name="name">view form criar horario</field>
+    <field name="model">horario</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="professor"/>
+                    <field name="disponibilidade"/>
+                    <field name="disciplina"/>
+                    <field name="sala"/>
+                    <field name="dia_semana"/>
+                    <field name="hora_inicio"/>
+                    <field name="hora_fim" />
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+
+ <!--VIEWS PERTENCENTES AO MODELO DISCIPLINA -->
+
+<record id="view_form_sala" model="ir.ui.view">
+    <field name="name">view form sala</field>
+    <field name="model">sala</field>
+    <field name="arch" type="xml">
+        <form>
+          <sheet>
+                <group>
+                    <field name="tipo_de_sala"/>
+                    <field name="numero" />
+                </group>    
+          </sheet> 
+        </form>
+    </field>
+</record>
+
+
+ <record id="view_tree_sala" model="ir.ui.view">
+    <field name="name">view tree sala</field>
+    <field name="model">sala</field>
+    <field name="arch" type="xml">
+        <tree>
+
+            <field name="tipo_de_sala"/>
+            <field name="numero" />
+            
+        </tree>
+    </field>
+</record>
+
+ <!--VIEWS PERTENCENTES AO MODELO DISCIPLINA -->
+
+<record id="view_form_disciplina" model="ir.ui.view">
+    <field name="name">view form disciplina</field>
+    <field name="model">disciplina</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="nome"/>
+                    <field name="professor" />
+                </group>    
+            </sheet>
+        </form>
+    </field>
+</record>
+
+<record id="view_tree_disciplina" model="ir.ui.view">
+    <field name="name">view tree disciplina</field>
+    <field name="model">disciplina</field>
+    <field name="arch" type="xml">
+        <tree>
+
+            <field name="nome"/>
+            <field name="professor" />
+            
+        </tree>
+    </field>
+</record>
+ 
+ <!--VIEWS PERTENCENTES AO MODELO PROFESSOR -->   
+<record id="view_form_professor" model="ir.ui.view">
+    <field name="name">Form view professor</field>
+    <field name="model">professor</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="nome"/>
+                    <field name="email"/>
+                    <field name="telefone"/>
+                    <field name="sexo"/>
+                    <field name="departamento"/>
+                    <field name="carga_horaria_semanal"/>
+                    <field name="data_contratacao"/>
+                    <field name="observacao"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+
+<record id="view_tree_professor" model="ir.ui.view">
+        <field name="name">Dados</field>
+        <field name="model">professor</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="nome"/>
+                <field name="email"/>
+                <field name="telefone"/>
+                <field name="sexo"/>
+                <field name="departamento"/>
+                <field name="carga_horaria_semanal"/>
+                <field name="data_contratacao"/>
+                <field name="observacao"/>
+            </tree>
+        </field>
+    </record>
+
+
+</odoo>

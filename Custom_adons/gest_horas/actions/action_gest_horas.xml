@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+   <record id="action_gest_horas" model="ir.actions.act_window">
+        <field name="name">Professores</field>
+        <field name="res_model">professor</field>
+        <field name="view_mode">form,tree,kanban</field>
+        </record>
+
+    <record id="action_disciplina" model="ir.actions.act_window">
+        <field name="name">Disciplina</field>
+        <field name="res_model">disciplina</field>
+        <field name="view_mode">tree,form,kanban</field>
+        </record>
+
+    <record id="action_sala" model="ir.actions.act_window">
+        <field name="name">Sala</field>
+        <field name="res_model">sala</field>
+        <field name="view_mode">tree,form,kanban</field>
+        </record>
+
+    <record id="action_criar_horario" model="ir.actions.act_window">
+        <field name="name">Criar Horario</field>
+        <field name="res_model">horario</field>
+        <field name="view_mode">form</field>
+        </record>
+
+    <record id="action_ver_horario" model="ir.actions.act_window">
+        <field name="name">Ver Horario</field>
+        <field name="res_model">horario</field>
+        <field name="view_mode">tree</field>
+        </record>    
+</odoo>

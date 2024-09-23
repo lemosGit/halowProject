@@ -45,7 +45,7 @@ class Professor (models.Model):
         required=True
     )
     
-    depertamento = fields.Many2one(
+    departamento = fields.Many2one(
         'departamento',
         string= "Departamento",
         required=True
@@ -104,7 +104,7 @@ class disciplina (models.Model):
     _name = "disciplina"
     _description = "descricao das disciplinas lecionadas"
 
-    Nome = fields.Char(
+    nome = fields.Char(
         string= "Nome", 
         required=True,
         size = 150,
@@ -163,7 +163,7 @@ class Horario (models.Model):
         required=True
     )
 
-    dipsonibilidade = fields.Many2one(
+    disponibilidade = fields.Many2one(
         'disponibilidade',
         string = "diponibilidade",
         required = True
